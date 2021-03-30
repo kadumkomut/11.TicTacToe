@@ -1,0 +1,51 @@
+* {
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow:hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background-color: #3498db;
+    place-items: center;
+}
+.main-box{
+    background-color: #2980b9;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    box-shadow: -1px 3px 26px 11px rgba(182, 175, 175, 0.75);
+    -webkit-box-shadow: -1px 3px 26px 11px  rgba(182, 177, 177, 0.75);
+    -moz-box-shadow: -1px 3px 26px 11px  rgba(163, 153, 153, 0.75);
+    cursor: pointer;
+    div{
+        width:20px;
+        height: 20px;
+        
+        border: 1px solid lightgrey;
+        padding:70px;
+        font-size: 3.1rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease-in-out;
+
+        &:hover{
+            background-color: #3498db;
+            color:white;
+        }
+    }
+
+    header {
+        padding:10px;
+        font-weight: bold;
+        color:white;
+    }
+}

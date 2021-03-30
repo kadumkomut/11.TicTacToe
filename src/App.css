@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  background-color: #3498db;
+  place-items: center;
+}
+
+.main-box {
+  background-color: #2980b9;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  box-shadow: -1px 3px 26px 11px rgba(182, 175, 175, 0.75);
+  -webkit-box-shadow: -1px 3px 26px 11px rgba(182, 177, 177, 0.75);
+  -moz-box-shadow: -1px 3px 26px 11px rgba(163, 153, 153, 0.75);
+  cursor: pointer;
+}
+
+.main-box div {
+  width: 20px;
+  height: 20px;
+  border: 1px solid lightgrey;
+  padding: 70px;
+  font-size: 3.1rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-box div:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.main-box header {
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+/*# sourceMappingURL=App.css.map */
